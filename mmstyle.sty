@@ -1,0 +1,176 @@
+
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{xspace}
+
+% common abbreviations
+
+\providecommand{\eg}{\textit{e.g.}\@\xspace}
+\providecommand{\ie}{\textit{i.e.}\@\xspace}
+\providecommand{\wrt}{\textit{w.r.t.}\@\xspace}
+\providecommand{\etal}{\textit{et al}\@\xspace}
+
+
+% useful operators
+
+\newcommand{\argmin}{\mathop{\mathrm{argmin}}}
+\newcommand{\argmax}{\mathop{\mathrm{argmax}}}
+
+
+% v? vectors:
+
+\newcommand{\va}{\mathbf{a}}
+\newcommand{\vb}{\mathbf{b}}
+\newcommand{\vc}{\mathbf{c}}
+\newcommand{\vd}{\mathbf{d}}
+\newcommand{\ve}{\mathbf{e}}
+\newcommand{\vf}{\mathbf{f}}
+\newcommand{\vg}{\mathbf{g}}
+\newcommand{\vh}{\mathbf{h}}
+\newcommand{\vi}{\mathbf{i}}
+\newcommand{\vj}{\mathbf{j}}
+\newcommand{\vk}{\mathbf{k}}
+\newcommand{\vl}{\mathbf{l}}
+\newcommand{\vm}{\mathbf{m}}
+\newcommand{\vn}{\mathbf{n}}
+\newcommand{\vo}{\mathbf{o}}
+\newcommand{\vp}{\mathbf{p}}
+\newcommand{\vq}{\mathbf{q}}
+\newcommand{\vr}{\mathbf{r}}
+%\newcommand{\vs}{\mathbf{s}}
+\newcommand{\vt}{\mathbf{t}}
+\newcommand{\vu}{\mathbf{u}}
+\newcommand{\vv}{\mathbf{v}}
+\newcommand{\vw}{\mathbf{w}}
+\newcommand{\vx}{\mathbf{x}}
+\newcommand{\vy}{\mathbf{y}}
+\newcommand{\vz}{\mathbf{z}}
+
+\newcommand{\vone}{\mathbf{1}}
+\newcommand{\vzero}{\mathbf{0}}
+
+\newcommand{\valpha}   {\boldsymbol{\alpha}}
+\newcommand{\vbeta}    {\boldsymbol{\beta}}
+\newcommand{\vgamma}   {\boldsymbol{\gamma}}
+\newcommand{\vdelta}   {\boldsymbol{\delta}}
+\newcommand{\vepsilon} {\boldsymbol{\epsilon}}
+\newcommand{\vzeta}    {\boldsymbol{\zeta}}
+\newcommand{\veta}     {\boldsymbol{\eta}}
+\newcommand{\vtheta}   {\boldsymbol{\theta}}
+\newcommand{\viota}    {\boldsymbol{\iota}}
+\newcommand{\vkappa}   {\boldsymbol{\kappa}}
+\newcommand{\vlambda}  {\boldsymbol{\lambda}}
+\newcommand{\vmu}      {\boldsymbol{\mu}}
+\newcommand{\vnu}      {\boldsymbol{\nu}}
+\newcommand{\vxi}      {\boldsymbol{\xi}}
+\newcommand{\vpi}      {\boldsymbol{\pi}}
+\newcommand{\vrho}     {\boldsymbol{\rho}}
+\newcommand{\vsigma}   {\boldsymbol{\sigma}}
+\newcommand{\vtau}     {\boldsymbol{\tau}}
+\newcommand{\vupsilon} {\boldsymbol{\upsilon}}
+\newcommand{\vphi}     {\boldsymbol{\phi}}
+\newcommand{\vchi}     {\boldsymbol{\chi}}
+\newcommand{\vpsi}     {\boldsymbol{\psi}}
+\newcommand{\vomega}   {\boldsymbol{\omega}}
+
+
+% m? matrices:
+
+\newcommand{\mA}{\mathbf{A}}
+\newcommand{\mB}{\mathbf{B}}
+\newcommand{\mC}{\mathbf{C}}
+\newcommand{\mD}{\mathbf{D}}
+\newcommand{\mE}{\mathbf{E}}
+\newcommand{\mF}{\mathbf{F}}
+\newcommand{\mG}{\mathbf{G}}
+\newcommand{\mH}{\mathbf{H}}
+\newcommand{\mI}{\mathbf{I}}
+\newcommand{\mJ}{\mathbf{J}}
+\newcommand{\mK}{\mathbf{K}}
+\newcommand{\mL}{\mathbf{L}}
+\newcommand{\mM}{\mathbf{M}}
+\newcommand{\mN}{\mathbf{N}}
+\newcommand{\mO}{\mathbf{O}}
+\newcommand{\mP}{\mathbf{P}}
+\newcommand{\mQ}{\mathbf{Q}}
+\newcommand{\mR}{\mathbf{R}}
+\newcommand{\mS}{\mathbf{S}}
+\newcommand{\mT}{\mathbf{T}}
+\newcommand{\mU}{\mathbf{U}}
+\newcommand{\mV}{\mathbf{V}}
+\newcommand{\mW}{\mathbf{W}}
+\newcommand{\mX}{\mathbf{X}}
+\newcommand{\mY}{\mathbf{Y}}
+\newcommand{\mZ}{\mathbf{Z}}
+
+\newcommand{\mGamma}{\boldsymbol{\Gamma}}
+\newcommand{\mDelta}{\boldsymbol{\Delta}}
+\newcommand{\mTheta}{\boldsymbol{\Theta}}
+\newcommand{\mLambda}{\boldsymbol{\Lambda}}
+\newcommand{\mXi}{\boldsymbol{\Xi}}
+\newcommand{\mPi}{\boldsymbol{\Pi}}
+\newcommand{\mSigma}{\boldsymbol{\Sigma}}
+\newcommand{\mUpsilon}{\boldsymbol{\Upsilon}}
+\newcommand{\mPhi}{\boldsymbol{\Phi}}
+\newcommand{\mPsi}{\boldsymbol{\Psi}}
+\newcommand{\mOmega}{\boldsymbol{\Omega}}
+
+
+% c? calligraphic letters
+
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cC}{\mathcal{C}}
+\newcommand{\cD}{\mathcal{D}}
+\newcommand{\cE}{\mathcal{E}}
+\newcommand{\cF}{\mathcal{F}}
+\newcommand{\cG}{\mathcal{G}}
+\newcommand{\cH}{\mathcal{H}}
+\newcommand{\cI}{\mathcal{I}}
+\newcommand{\cJ}{\mathcal{J}}
+\newcommand{\cK}{\mathcal{K}}
+\newcommand{\cL}{\mathcal{L}}
+\newcommand{\cM}{\mathcal{M}}
+\newcommand{\cN}{\mathcal{N}}
+\newcommand{\cO}{\mathcal{O}}
+\newcommand{\cP}{\mathcal{P}}
+\newcommand{\cQ}{\mathcal{Q}}
+\newcommand{\cR}{\mathcal{R}}
+\newcommand{\cS}{\mathcal{S}}
+\newcommand{\cT}{\mathcal{T}}
+\newcommand{\cU}{\mathcal{U}}
+\newcommand{\cV}{\mathcal{V}}
+\newcommand{\cW}{\mathcal{W}}
+\newcommand{\cX}{\mathcal{X}}
+\newcommand{\cY}{\mathcal{Y}}
+\newcommand{\cZ}{\mathcal{Z}}
+
+
+% blackboard bold
+
+\newcommand{\Abb}{\mathbb{A}}
+
+\newcommand{\Cbb}{\mathbb{C}}
+\newcommand{\Dbb}{\mathbb{D}}
+\newcommand{\Ebb}{\mathbb{E}}
+\newcommand{\Fbb}{\mathbb{F}}
+\newcommand{\Gbb}{\mathbb{G}}
+\newcommand{\Hbb}{\mathbb{H}}
+\newcommand{\Ibb}{\mathbb{I}}
+\newcommand{\Jbb}{\mathbb{J}}
+\newcommand{\Kbb}{\mathbb{K}}
+\newcommand{\Lbb}{\mathbb{L}}
+\newcommand{\Mbb}{\mathbb{M}}
+\newcommand{\Nbb}{\mathbb{N}}
+\newcommand{\Obb}{\mathbb{O}}
+\newcommand{\Pbb}{\mathbb{P}}
+\newcommand{\Qbb}{\mathbb{Q}}
+\newcommand{\Rbb}{\mathbb{R}}
+\newcommand{\Sbb}{\mathbb{S}}
+\newcommand{\Tbb}{\mathbb{T}}
+\newcommand{\Ubb}{\mathbb{U}}
+\newcommand{\Vbb}{\mathbb{V}}
+\newcommand{\Wbb}{\mathbb{W}}
+\newcommand{\Xbb}{\mathbb{X}}
+\newcommand{\Ybb}{\mathbb{Y}}
+\newcommand{\Zbb}{\mathbb{Z}}
+

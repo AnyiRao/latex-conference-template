@@ -1,7 +1,7 @@
 
 # A LATEX template for ICCV/CVPR submission 
 ## This template includes template for paper submission, supplementary material, and rebuttal. 
-If you want to use it for CVPR, change, ``iccv.syt`` and ``iccv_eso.sty`` with CVPR version. It is tested in ICCV19 CVPR19
+If you want to use it for CVPR, change, ``iccv.syt`` and ``iccv_eso.sty`` with CVPR version. It is tested on ICCV19, CVPR19
 
 ### Paper submission
 ``main.tex`` is for paper submission and its article tex is in folder ``articles`` 

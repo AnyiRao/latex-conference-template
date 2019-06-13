@@ -3,7 +3,7 @@
 ## Ignore compiled PDF files
 *main.pdf
 *supple/supple.pdf
-*rebuttal/rebuttal.pdf
+*rebuttal/egrebuttal.pdf
 
 .DS_Store
 rebuttal/.DS_Store

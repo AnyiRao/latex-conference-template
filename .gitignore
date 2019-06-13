@@ -6,7 +6,9 @@
 *rebuttal/rebuttal.pdf
 
 .DS_Store
-
+rebuttal/.DS_Store
+supple/.DS_Store
+articles/.DS_Store
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -15,6 +17,14 @@
 *.fls
 *.out
 *.toc
+
+*rebuttal/*.aux
+*rebuttal/*.lof
+*rebuttal/*.log
+*rebuttal/*.lot
+*rebuttal/*.fls
+*rebuttal/*.out
+*rebuttal/*.toc
 
 ## Intermediate documents:
 *.dvi

@@ -18,14 +18,6 @@ articles/.DS_Store
 *.out
 *.toc
 
-*rebuttal/*.aux
-*rebuttal/*.lof
-*rebuttal/*.log
-*rebuttal/*.lot
-*rebuttal/*.fls
-*rebuttal/*.out
-*rebuttal/*.toc
-
 ## Intermediate documents:
 *.dvi
 *-converted-to.*

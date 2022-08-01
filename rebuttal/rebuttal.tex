@@ -1,7 +1,7 @@
 \documentclass[10pt,twocolumn,letterpaper]{article}
 
 %%%%%%%%% PAPER TYPE  - PLEASE UPDATE FOR FINAL VERSION
-\usepackage[review]{cvpr}      % To produce the REVIEW version
+\usepackage[review]{../cvpr}      % To produce the REVIEW version
 %\usepackage{cvpr}              % To produce the CAMERA-READY version
 %\usepackage[pagenumbers]{cvpr} % To force page numbers, e.g. for an arXiv version
 
@@ -13,8 +13,8 @@
 \usepackage{times}
 \usepackage{epsfig}
 \usepackage{graphicx}
-\usepackage{mmstyle}
-
+\usepackage{../mmstyle}
+\input{../macros}
 
 % It is strongly recommended to use hyperref, especially for the review version.
 % hyperref with option pagebackref eases the reviewers' job.
@@ -41,45 +41,28 @@
 \def\confName{CVPR}
 \def\confYear{2022}
 
-%%%%%%%%% Self-defined color and command
-\input{macros}
-
 \begin{document}
 
 %%%%%%%%% TITLE - PLEASE UPDATE
-\title{\LaTeX\ Author Guidelines for \confName~Proceedings}
+\title{Author Response Template}  % **** Enter the paper title here
 
-\author{First Author\\
-	Institution1\\
-	Institution1 address\\
-	{\tt\small firstauthor@i1.org}
-	% For a paper whose authors are all at the same institution,
-	% omit the following lines up until the closing ``}''.
-	% Additional authors and addresses can be added with ``\and'',
-	% just like the second author.
-	% To save space, use either the email address or home page, not both
-	\and
-	Second Author\\
-	Institution2\\
-	First line of institution2 address\\
-	{\tt\small secondauthor@i2.org}
-}
 \maketitle
-	
+
+%%%%%%%%% BODY TEXT - ENTER YOUR RESPONSE BELOW
+\subsection*{\normalsize \bf  Overall Responses to All Reviewers}
+\textbf{Tech Details.}
+
+\textbf{Application Details.}
 
 
-\input{articles/abstract.tex}
+\subsection*{\normalsize \bf  Response to Reviewer \#1}
+\vspace{-1mm}
 
-%%%%%%%%% BODY TEXT
-\input{articles/introduction.tex}
-\input{articles/related.tex}
-\input{articles/methodology.tex}
-\input{articles/experiment.tex}
-\input{articles/conclusion.tex}
+\subsection*{\normalsize \bf  Response to Reviewer \#2}
+\vspace{-1mm}
 
-{\small
-\bibliographystyle{ieee_fullname}
-\bibliography{main}
-}
+\subsection*{\normalsize \bf  Response to Reviewer \#3}
+\vspace{-1mm}
+
 
 \end{document}
